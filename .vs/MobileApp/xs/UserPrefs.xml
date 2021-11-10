@@ -1,26 +1,28 @@
 ﻿<Properties StartupConfiguration="{F6D864BA-FC6A-4410-95AC-A57E8143A45B}|Default">
   <MonoDevelop.Ide.ItemProperties.MobileApp.iOS FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.MobileApp.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MobileApp/LoginPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MobileApp/UsersList.cs">
     <Files>
-      <File FileName="MobileApp/MainPage.xaml" Line="8" Column="76" />
+      <File FileName="MobileApp/MainPage.xaml" Line="8" Column="47" />
       <File FileName="MobileApp/App.xaml" />
       <File FileName="MobileApp/App.xaml.cs" Line="15" Column="60" />
-      <File FileName="MobileApp/MainPage.xaml.cs" />
-      <File FileName="MobileApp/RregisterPage.xaml" />
-      <File FileName="MobileApp/RregisterPage.xaml.cs" />
-      <File FileName="MobileApp/LoginPage.xaml" Line="1" Column="1" />
-      <File FileName="MobileApp/LoginPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="MobileApp/MainPage.xaml.cs" Line="7" Column="21" />
+      <File FileName="MobileApp/RregisterPage.xaml" Line="10" Column="13" />
+      <File FileName="MobileApp/RregisterPage.xaml.cs" Line="21" Column="19" />
+      <File FileName="MobileApp/LoginPage.xaml" Line="7" Column="26" />
+      <File FileName="MobileApp/LoginPage.xaml.cs" Line="17" Column="1" />
+      <File FileName="MobileApp/User.cs" Line="26" Column="31" />
+      <File FileName="MobileApp/UsersList.cs" Line="7" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MobileApp" expanded="True">
             <Node name="MobileApp" expanded="True">
-              <Node name="LoginPage.xaml" expanded="True">
-                <Node name="LoginPage.xaml.cs" selected="True" />
-              </Node>
+              <Node name="LoginPage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
               <Node name="RregisterPage.xaml" expanded="True" />
+              <Node name="UsersList.cs" selected="True" />
             </Node>
           </Node>
         </State>
