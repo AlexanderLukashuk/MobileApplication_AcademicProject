@@ -15,9 +15,14 @@ namespace MobileApp
             InitializeComponent();
         }
 
-        private async void OnButtonClicked(object sender, EventArgs args)
+        private async void RegisterClicked(object sender, EventArgs args)
         {
             await Navigation.PushAsync(new MobileApp.RregisterPage());
+        }
+
+        private async void LoginClicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new MobileApp.LoginPage());
         }
     }
 }

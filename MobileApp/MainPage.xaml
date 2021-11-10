@@ -6,8 +6,8 @@
 
     <ContentPage.Content>
         <StackLayout Padding="12, 12, 12, 12" VerticalOptions="EndAndExpand" HorizontalOptions="FillAndExpand">
-        <Button x:Name="loginButton" Text="Log in" BackgroundColor="Blue" TextColor="White" HorizontalOptions="FillAndExpand" Margin="20, 20" VerticalOptions="End" ></Button>
-        <Button x:Name="registerButton" Text="Register" BackgroundColor="LightBlue" TextColor="Blue" HorizontalOptions="FillAndExpand" Margin="20, 20" VerticalOptions="End" Clicked="OnButtonClicked" ></Button>
+        <Button x:Name="loginButton" Text="Log in" BackgroundColor="Blue" TextColor="White" HorizontalOptions="FillAndExpand" Margin="20, 20" VerticalOptions="End" Clicked="LoginClicked" ></Button>
+        <Button x:Name="registerButton" Text="Register" BackgroundColor="LightBlue" TextColor="Blue" HorizontalOptions="FillAndExpand" Margin="20, 20" VerticalOptions="End" Clicked="RegisterClicked" ></Button>
 
     </StackLayout>
     </ContentPage.Content>
