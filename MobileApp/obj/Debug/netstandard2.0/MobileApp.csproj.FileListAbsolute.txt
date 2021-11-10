@@ -1,0 +1,15 @@
+/Users/sanya/Projects/MobileApp/MobileApp/bin/Debug/netstandard2.0/MobileApp.deps.json
+/Users/sanya/Projects/MobileApp/MobileApp/bin/Debug/netstandard2.0/MobileApp.dll
+/Users/sanya/Projects/MobileApp/MobileApp/bin/Debug/netstandard2.0/ref/MobileApp.dll
+/Users/sanya/Projects/MobileApp/MobileApp/bin/Debug/netstandard2.0/MobileApp.pdb
+/Users/sanya/Projects/MobileApp/MobileApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/sanya/Projects/MobileApp/MobileApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/sanya/Projects/MobileApp/MobileApp/obj/Debug/netstandard2.0/MobileApp.AssemblyInfoInputs.cache
+/Users/sanya/Projects/MobileApp/MobileApp/obj/Debug/netstandard2.0/MobileApp.AssemblyInfo.cs
+/Users/sanya/Projects/MobileApp/MobileApp/obj/Debug/netstandard2.0/MobileApp.csproj.CoreCompileInputs.cache
+/Users/sanya/Projects/MobileApp/MobileApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/sanya/Projects/MobileApp/MobileApp/obj/Debug/netstandard2.0/MobileApp.dll
+/Users/sanya/Projects/MobileApp/MobileApp/obj/Debug/netstandard2.0/ref/MobileApp.dll
+/Users/sanya/Projects/MobileApp/MobileApp/obj/Debug/netstandard2.0/MobileApp.pdb
+/Users/sanya/Projects/MobileApp/MobileApp/obj/Debug/netstandard2.0/RregisterPage.xaml.g.cs
+/Users/sanya/Projects/MobileApp/MobileApp/obj/Debug/netstandard2.0/MobileApp.csproj.AssemblyReference.cache

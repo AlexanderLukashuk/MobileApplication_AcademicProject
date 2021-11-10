@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{F6D864BA-FC6A-4410-95AC-A57E8143A45B}|Default">
+  <MonoDevelop.Ide.ItemProperties.MobileApp.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.MobileApp.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MobileApp/App.xaml.cs">
+    <Files>
+      <File FileName="MobileApp/MainPage.xaml" Line="8" Column="76" />
+      <File FileName="MobileApp/App.xaml" />
+      <File FileName="MobileApp/App.xaml.cs" Line="16" Column="61" />
+      <File FileName="MobileApp/MainPage.xaml.cs" Line="18" Column="17" />
+      <File FileName="MobileApp/RregisterPage.xaml" Line="8" Column="114" />
+      <File FileName="MobileApp/RregisterPage.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MobileApp" expanded="True">
+            <Node name="MobileApp" expanded="True">
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="RregisterPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
