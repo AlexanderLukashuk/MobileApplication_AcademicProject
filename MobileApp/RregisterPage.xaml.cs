@@ -30,7 +30,13 @@ namespace MobileApp
                 await JsonSerializer.SerializeAsync(fs, user);
             }*/
 
-            //User user = new User(loginEntry.Text, phoneEntry.Text, passwordEntry.Text);
+            string email = loginEntry.Text;
+            string phone = phoneEntry.Text;
+            string password = passwordEntry.Text;
+
+            User user = new User(email, phone, password);
+
+            await DisplayAlert("Wait", "Successful", "OK");
             //string jsonString = JsonSerializer.Serialize(user);
             //File.WriteAllText("usersList.json", jsonString);
 
@@ -44,6 +50,7 @@ namespace MobileApp
             //using FileStream createStream = File.Create("users.json");
             //await JsonSerializer.SerializeAsync(createStream, user);
 
+            //await Navigation.PushAsync(new MobileApp.NewMainPage(user));
             await Navigation.PushAsync(new MobileApp.NewMainPage());
         }
     }

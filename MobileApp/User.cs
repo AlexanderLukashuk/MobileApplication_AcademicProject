@@ -3,41 +3,11 @@ namespace MobileApp
 {
     public class User
     {
-        public string Email
-        {
-            get
-            {
-                return Email;
-            }
-            set
-            {
-                Email = value;
-            }
-        }
+        public string Email { get; set; }
 
-        public string Phone
-        {
-            get
-            {
-                return Phone;
-            }
-            set
-            {
-                Phone = value;
-            }
-        }
+        public string Phone { get; set; }
 
-        private string Password
-        {
-            get
-            {
-                return Password;
-            }
-            set
-            {
-                Password = value;
-            }
-        }
+        private string Password { get; set; }
 
         public User(string email, string phone,  string password)
         {

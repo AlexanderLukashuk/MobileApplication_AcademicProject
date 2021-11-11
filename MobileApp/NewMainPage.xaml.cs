@@ -29,9 +29,6 @@ namespace MobileApp
             //string jsonString = File.ReadAllText("Users/sanya/Projects/MobileApp/MobileApp/users.json");
             //User restoredUser = JsonSerializer.Deserialize<User>(jsonString);
 
-            //nameLabel.Text = restoredUser.Email;
-            //phoneLabel.Text = restoredUser.Phone;
-
             //nameLabel.Text = user.Email;
             //phoneLabel.Text = user.Phone;
         }
