@@ -35,9 +35,39 @@ namespace MobileApp
             string phone = phoneEntry.Text;
             string password = passwordEntry.Text;
 
-            User user = new User(name, email, phone, password);
+            if (String.IsNullOrEmpty(name))
+            {
+                await DisplayAlert("Error", "Name field must be filled", "Ok");
+            }
+            else if (String.IsNullOrEmpty(email))
+            {
+                await DisplayAlert("Error", "Email field must be filled", "Ok");
+            }
+            else if (String.IsNullOrEmpty(phone))
+            {
+                await DisplayAlert("Error", "Phone foeld must be filled", "Ok");
+            }
+            else if (String.IsNullOrEmpty(password))
+            {
+                await DisplayAlert("Error", "Password field must be filled", "Ok");
+            }
+            else if (!(IsValidEmail(email)))
+            {
+                await DisplayAlert("Error", "Wrong email address", "Ok");
+            }
+            else if (phone.Length != 11)
+            {
+                await DisplayAlert("Error", "Wrong phone number", "Ok");
+            }
+            else
+            {
+                User user = new User(name, email, phone, password);
 
-            await DisplayAlert("Wait", "Successful", "OK");
+                await DisplayAlert("Wait", "Successful", "OK");
+                await Navigation.PushAsync(new MobileApp.NewMainPage(user));
+            }
+
+
             //string jsonString = JsonSerializer.Serialize(user);
             //File.WriteAllText("usersList.json", jsonString);
 
@@ -52,7 +82,20 @@ namespace MobileApp
             //await JsonSerializer.SerializeAsync(createStream, user);
 
             //await Navigation.PushAsync(new MobileApp.NewMainPage(user));
-            await Navigation.PushAsync(new MobileApp.NewMainPage(user));
+            //await Navigation.PushAsync(new MobileApp.NewMainPage(user));
+        }
+
+        bool IsValidEmail(string email)
+        {
+            try
+            {
+                var addr = new System.Net.Mail.MailAddress(email);
+                return addr.Address == email;
+            }
+            catch
+            {
+                return false;
+            }
         }
     }
 }
