@@ -1,21 +1,29 @@
 ﻿<Properties StartupConfiguration="{F6D864BA-FC6A-4410-95AC-A57E8143A45B}|Default">
   <MonoDevelop.Ide.ItemProperties.MobileApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.59B3D1B1-C70E-4B6B-B208-A197E735AEBD" />
   <MonoDevelop.Ide.ItemProperties.MobileApp.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MobileApp/RregisterPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MobileApp/App.xaml.cs">
     <Files>
-      <File FileName="MobileApp/RregisterPage.xaml.cs" Line="54" Column="70" />
-      <File FileName="MobileApp/NewMainPage.xaml.cs" Line="33" Column="42" />
-      <File FileName="MobileApp/NewMainPage.xaml" Line="18" Column="49" />
-      <File FileName="MobileApp/User.cs" Line="10" Column="46" />
-      <File FileName="MobileApp/RregisterPage.xaml" Line="10" Column="13" />
+      <File FileName="MobileApp/RregisterPage.xaml.cs" Line="38" Column="64" />
+      <File FileName="MobileApp/NewMainPage.xaml.cs" Line="32" Column="41" />
+      <File FileName="MobileApp/NewMainPage.xaml" Line="18" Column="92" />
+      <File FileName="MobileApp/User.cs" Line="16" Column="25" />
+      <File FileName="MobileApp/RregisterPage.xaml" Line="10" Column="32" />
+      <File FileName="MobileApp/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="MobileApp/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="MobileApp/App.xaml" Line="1" Column="1" />
+      <File FileName="MobileApp/App.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MobileApp" expanded="True">
             <Node name="MobileApp" expanded="True">
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
               <Node name="NewMainPage.xaml" expanded="True" />
-              <Node name="RregisterPage.xaml" expanded="True" selected="True" />
+              <Node name="RregisterPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>

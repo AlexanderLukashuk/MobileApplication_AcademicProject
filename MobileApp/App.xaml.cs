@@ -12,7 +12,7 @@ namespace MobileApp
 
             MainPage = new NavigationPage(new MobileApp.MainPage())
             {
-                BackgroundColor = Color.FromHex("#b39ddb"),
+                BackgroundColor = Color.FromHex("#f3e5f5"),
                 BarBackgroundColor = Color.FromHex("#7c4dff")
             };
         }
