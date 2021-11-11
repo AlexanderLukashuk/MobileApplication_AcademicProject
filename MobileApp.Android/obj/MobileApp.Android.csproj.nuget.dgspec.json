@@ -36,6 +36,22 @@
       "frameworks": {
         "monoandroid11.0": {
           "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Runtime.Serialization.Json": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "ThriveGmbH.BottomNavigationBar.XF": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
             "Xamarin.Android.Support.v7.AppCompat": {
               "target": "Package",
               "version": "[23.3.0, )"
@@ -98,6 +114,18 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Runtime.Serialization.Json": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

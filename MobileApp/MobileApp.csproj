@@ -13,5 +13,27 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="System.Text.Json" Version="6.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Resources\" />
+    <None Remove="Resources\outline_account_circle_black_24dp.png" />
+    <None Remove="Resources\outline_account_circle_black_24dp_2x.png" />
+    <None Remove="Resources\outline_home_black_24dp.png" />
+    <None Remove="Resources\outline_home_black_24dp_2x.png" />
+    <None Remove="System.Text.Json" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="System.Runtime.Serialization.Json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\outline_account_circle_black_24dp.png" />
+    <AndroidResource Include="Resources\outline_account_circle_black_24dp_2x.png" />
+    <AndroidResource Include="Resources\outline_home_black_24dp.png" />
+    <AndroidResource Include="Resources\outline_home_black_24dp_2x.png" />
   </ItemGroup>
 </Project>

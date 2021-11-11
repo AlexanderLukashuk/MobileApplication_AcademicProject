@@ -1,28 +1,31 @@
 ﻿<Properties StartupConfiguration="{F6D864BA-FC6A-4410-95AC-A57E8143A45B}|Default">
-  <MonoDevelop.Ide.ItemProperties.MobileApp.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.MobileApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.59B3D1B1-C70E-4B6B-B208-A197E735AEBD" />
   <MonoDevelop.Ide.ItemProperties.MobileApp.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MobileApp/NewMainPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MobileApp/LoginPage.xaml">
     <Files>
-      <File FileName="MobileApp/MainPage.xaml" Line="8" Column="47" />
-      <File FileName="MobileApp/App.xaml" />
-      <File FileName="MobileApp/App.xaml.cs" />
-      <File FileName="MobileApp/MainPage.xaml.cs" />
-      <File FileName="MobileApp/RregisterPage.xaml" />
-      <File FileName="MobileApp/RregisterPage.xaml.cs" />
-      <File FileName="MobileApp/LoginPage.xaml" />
-      <File FileName="MobileApp/LoginPage.xaml.cs" />
-      <File FileName="MobileApp/User.cs" Line="26" Column="31" />
-      <File FileName="MobileApp/UsersList.cs" />
-      <File FileName="MobileApp/TestPage.xaml" Line="11" Column="83" />
-      <File FileName="MobileApp/TestPage.xaml.cs" />
-      <File FileName="MobileApp/NewMainPage.xaml" Line="1" Column="1" />
-      <File FileName="MobileApp/NewMainPage.xaml.cs" />
+      <File FileName="MobileApp/RregisterPage.xaml.cs" Line="6" Column="17" />
+      <File FileName="MobileApp/users.json" Line="1" Column="1" />
+      <File FileName="MobileApp/NewMainPage.xaml.cs" Line="51" Column="14" />
+      <File FileName="MobileApp/User.cs" Line="47" Column="10" />
+      <File FileName="MobileApp/LoginPage.xaml.cs" Line="18" Column="12" />
+      <File FileName="MobileApp/LoginPage.xaml" Line="12" Column="119" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MobileApp" expanded="True">
-            <Node name="MobileApp" expanded="True" selected="True" />
+            <Node name="MobileApp" expanded="True">
+              <Node name="Resources" expanded="True" />
+              <Node name="LoginPage.xaml" expanded="True" selected="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="NewMainPage.xaml" expanded="True" />
+              <Node name="RregisterPage.xaml" expanded="True" />
+              <Node name="TestPage.xaml" expanded="True" />
+            </Node>
+            <Node name="MobileApp.Android" expanded="True" />
+            <Node name="MobileApp.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

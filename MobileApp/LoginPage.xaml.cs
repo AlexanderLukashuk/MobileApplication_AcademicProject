@@ -12,9 +12,9 @@ namespace MobileApp
             InitializeComponent();
         }
 
-        private async void OnButtonClicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new MobileApp.NewMainPage());
-        }
+        //private async void OnButtonClicked(object sender, EventArgs e)
+        //{
+        //    //await Navigation.PushAsync(new MobileApp.NewMainPage());
+        //}
     }
 }

@@ -9,7 +9,7 @@
             <Label x:Name="Label1" Text="Checker Place" TextColor="Black" HorizontalTextAlignment="Center" FontSize="36"/>
             <Entry x:Name="loginEntry" Placeholder="Email" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
             <Entry x:Name="passwordEntry" Placeholder="Password" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
-            <Button Text="Log in" FontAttributes="Bold" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" Clicked="OnButtonClicked" ></Button>
+            <Button Text="Log in" FontAttributes="Bold" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20"  ></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
