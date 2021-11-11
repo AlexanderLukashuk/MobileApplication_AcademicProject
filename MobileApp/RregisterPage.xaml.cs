@@ -51,7 +51,7 @@ namespace MobileApp
             //await JsonSerializer.SerializeAsync(createStream, user);
 
             //await Navigation.PushAsync(new MobileApp.NewMainPage(user));
-            await Navigation.PushAsync(new MobileApp.NewMainPage());
+            await Navigation.PushAsync(new MobileApp.NewMainPage(user));
         }
     }
 }

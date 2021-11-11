@@ -12,7 +12,7 @@ namespace MobileApp
 {
     public partial class NewMainPage : TabbedPage
     {
-        public NewMainPage()
+        public NewMainPage(User user)
         {
             InitializeComponent();
 
@@ -29,8 +29,8 @@ namespace MobileApp
             //string jsonString = File.ReadAllText("Users/sanya/Projects/MobileApp/MobileApp/users.json");
             //User restoredUser = JsonSerializer.Deserialize<User>(jsonString);
 
-            //nameLabel.Text = user.Email;
-            //phoneLabel.Text = user.Phone;
+            nameLabel.Text = user.Email;
+            phoneLabel.Text = user.Phone;
         }
 
         public async void SaveUser(User user)
