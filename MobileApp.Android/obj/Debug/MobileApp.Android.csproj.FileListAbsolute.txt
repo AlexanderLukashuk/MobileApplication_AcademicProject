@@ -623,3 +623,7 @@
 /Users/sanya/Projects/MobileApp/MobileApp.Android/obj/Debug/android/assets/System.Threading.Tasks.Extensions.dll
 /Users/sanya/Projects/MobileApp/MobileApp.Android/obj/Debug/androidx/jl/c616e8ed-de58-49c7-8591-2e591dd2dca3.jar
 /Users/sanya/Projects/MobileApp/MobileApp.Android/obj/Debug/androidx/proguard/bbcdd3de-ba1d-4e7b-bed5-f970e053d53b.cfg
+/Users/sanya/Projects/MobileApp/MobileApp.Android/obj/Debug/res/drawable/outline_search_black_24dp.png
+/Users/sanya/Projects/MobileApp/MobileApp.Android/obj/Debug/res/drawable/outline_search_black_24dp_2x.png
+/Users/sanya/Projects/MobileApp/MobileApp.Android/obj/Debug/res/drawable/outline_settings_black_24dp.png
+/Users/sanya/Projects/MobileApp/MobileApp.Android/obj/Debug/res/drawable/outline_settings_black_24dp_2x.png

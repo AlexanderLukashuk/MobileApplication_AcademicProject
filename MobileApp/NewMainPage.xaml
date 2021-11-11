@@ -12,12 +12,28 @@
         </ContentPage.Content>
     </ContentPage>
 
+    <ContentPage Title="Search" IconImageSource="outline_search_black_24dp.png">
+        <ContentPage.Content>
+            <StackLayout Padding="12, 12, 12, 12" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
+                <Label Text="" FontSize="50" FontAttributes="Bold" />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
     <ContentPage Title="Account" IconImageSource="outline_account_circle_black_24dp.png">
         <ContentPage.Content>
             <StackLayout Padding="12, 12, 12, 12" VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
                 <Label x:Name="nameLabel" Text="Name: " FontSize="28" FontAttributes="Bold" TextColor="#aa00ff" />
                 <Label x:Name="emailLabel" Text="Email: " FontSize="28" FontAttributes="Bold" TextColor="#aa00ff" />
                 <Label x:Name="phoneLabel" Text="Phone: " FontSize="28" FontAttributes="Bold" TextColor="#aa00ff" />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage Title="Settings" IconImageSource="outline_settings_black_24dp.png">
+        <ContentPage.Content>
+            <StackLayout Padding="12, 12, 12, 12" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
+                <Label Text="" FontSize="50" FontAttributes="Bold" />
             </StackLayout>
         </ContentPage.Content>
     </ContentPage>

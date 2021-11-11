@@ -141,4 +141,10 @@
     <BundleResource Include="Resources\outline_account_circle_black_24dp.png" />
     <BundleResource Include="Resources\outline_account_circle_black_24dp_2x.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\outline_search_black_24dp.png" />
+    <AndroidResource Include="Resources\outline_search_black_24dp_2x.png" />
+    <AndroidResource Include="Resources\outline_settings_black_24dp.png" />
+    <AndroidResource Include="Resources\outline_settings_black_24dp_2x.png" />
+  </ItemGroup>
 </Project>
