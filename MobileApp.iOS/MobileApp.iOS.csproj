@@ -133,4 +133,10 @@
       <Name>MobileApp</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\outline_home_black_24dp.png" />
+    <BundleResource Include="Resources\outline_home_black_24dp_2x.png" />
+    <BundleResource Include="Resources\outline_account_circle_black_24dp.png" />
+    <BundleResource Include="Resources\outline_account_circle_black_24dp_2x.png" />
+  </ItemGroup>
 </Project>
