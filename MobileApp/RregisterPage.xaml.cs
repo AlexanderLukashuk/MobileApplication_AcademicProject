@@ -14,9 +14,13 @@ namespace MobileApp
             InitializeComponent();
         }
 
-        private void OnButtonClicked(object sender, EventArgs e)
+        private async void OnButtonClicked(object sender, EventArgs e)
         {
-            Label1.Text = "Hello " + loginEntry.Text;
+            //Label1.Text = "Hello " + loginEntry.Text;
+            User user = new User(loginEntry.Text, phoneEntry.Text, passwordEntry.Text);
+            UsersList.usersList.Add(user);
+
+            await Navigation.PushAsync(new MobileApp.TestPage());
         }
     }
 }

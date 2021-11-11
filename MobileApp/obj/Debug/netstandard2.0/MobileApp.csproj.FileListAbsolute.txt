@@ -14,3 +14,4 @@
 /Users/sanya/Projects/MobileApp/MobileApp/obj/Debug/netstandard2.0/RregisterPage.xaml.g.cs
 /Users/sanya/Projects/MobileApp/MobileApp/obj/Debug/netstandard2.0/MobileApp.csproj.AssemblyReference.cache
 /Users/sanya/Projects/MobileApp/MobileApp/obj/Debug/netstandard2.0/LoginPage.xaml.g.cs
+/Users/sanya/Projects/MobileApp/MobileApp/obj/Debug/netstandard2.0/TestPage.xaml.g.cs
