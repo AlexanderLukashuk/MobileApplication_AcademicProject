@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{F6D864BA-FC6A-4410-95AC-A57E8143A45B}|Default">
   <MonoDevelop.Ide.ItemProperties.MobileApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.59B3D1B1-C70E-4B6B-B208-A197E735AEBD" />
   <MonoDevelop.Ide.ItemProperties.MobileApp.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MobileApp/User.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MobileApp/RregisterPage.xaml">
     <Files>
-      <File FileName="MobileApp/RregisterPage.xaml.cs" Line="54" Column="66" />
-      <File FileName="MobileApp/NewMainPage.xaml.cs" Line="33" Column="15" />
-      <File FileName="MobileApp/NewMainPage.xaml" Line="14" Column="1" />
-      <File FileName="MobileApp/User.cs" Line="1" Column="1" />
+      <File FileName="MobileApp/RregisterPage.xaml.cs" Line="54" Column="70" />
+      <File FileName="MobileApp/NewMainPage.xaml.cs" Line="33" Column="42" />
+      <File FileName="MobileApp/NewMainPage.xaml" Line="18" Column="49" />
+      <File FileName="MobileApp/User.cs" Line="10" Column="46" />
+      <File FileName="MobileApp/RregisterPage.xaml" Line="10" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,8 +15,7 @@
           <Node name="MobileApp" expanded="True">
             <Node name="MobileApp" expanded="True">
               <Node name="NewMainPage.xaml" expanded="True" />
-              <Node name="RregisterPage.xaml" expanded="True" />
-              <Node name="User.cs" selected="True" />
+              <Node name="RregisterPage.xaml" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>

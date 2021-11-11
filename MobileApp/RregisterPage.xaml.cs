@@ -30,11 +30,12 @@ namespace MobileApp
                 await JsonSerializer.SerializeAsync(fs, user);
             }*/
 
+            string name = nameEntry.Text;
             string email = loginEntry.Text;
             string phone = phoneEntry.Text;
             string password = passwordEntry.Text;
 
-            User user = new User(email, phone, password);
+            User user = new User(name, email, phone, password);
 
             await DisplayAlert("Wait", "Successful", "OK");
             //string jsonString = JsonSerializer.Serialize(user);
