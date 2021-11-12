@@ -12,9 +12,28 @@ namespace MobileApp
 {
     public partial class NewMainPage : TabbedPage
     {
+        //public NewMainPage()
+        //{
+        //    InitializeComponent();
+        //}
+
+        User newUser;
+
         public NewMainPage(User user)
         {
             InitializeComponent();
+
+            newUser = user;
+
+            nameLabel.Text += user.Name;
+            emailLabel.Text += user.Email;
+            phoneLabel.Text += user.Phone;
+
+            /*Application.Current.MainPage = new NavigationPage(new MobileApp.NewMainPage())
+            {
+                BackgroundColor = Color.FromHex("#f3e5f5"),
+                BarBackgroundColor = Color.FromHex("#7c4dff")
+            };*/
 
             //SaveUser(user);
 
@@ -28,10 +47,6 @@ namespace MobileApp
 
             //string jsonString = File.ReadAllText("Users/sanya/Projects/MobileApp/MobileApp/users.json");
             //User restoredUser = JsonSerializer.Deserialize<User>(jsonString);
-
-            nameLabel.Text += user.Name;
-            emailLabel.Text += user.Email;
-            phoneLabel.Text += user.Phone;
         }
 
         public async void SaveUser(User user)
