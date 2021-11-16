@@ -28,6 +28,7 @@ namespace MobileApp
             nameLabel.Text += user.Name;
             emailLabel.Text += user.Email;
             phoneLabel.Text += user.Phone;
+            cityLabel.Text += user.City;
 
             /*Application.Current.MainPage = new NavigationPage(new MobileApp.NewMainPage())
             {
