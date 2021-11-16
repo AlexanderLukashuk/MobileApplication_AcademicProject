@@ -10,6 +10,7 @@
             <Entry x:Name="nameEntry" Placeholder="Name" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
             <Entry x:Name="loginEntry" Placeholder="Email" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
             <Entry x:Name="phoneEntry" Placeholder="Phone" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
+            <Entry x:Name="cityEntry" Placeholder="City" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
             <Entry x:Name="passwordEntry" Placeholder="Password" IsPassword="True" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
             <Button Text="Register" FontAttributes="Bold" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" Clicked="OnButtonClicked" ></Button>
         </StackLayout>

@@ -7,6 +7,9 @@
     <ContentPage Title="Home" IconImageSource="outline_home_black_24dp.png">
         <ContentPage.Content>
             <StackLayout Padding="12, 12, 12, 12" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
+                <Grid ColumnSpacing="40">
+
+                </Grid>
                 <Label Text="" FontSize="50" FontAttributes="Bold" />
             </StackLayout>
         </ContentPage.Content>

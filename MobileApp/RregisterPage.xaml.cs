@@ -34,6 +34,7 @@ namespace MobileApp
             string email = loginEntry.Text;
             string phone = phoneEntry.Text;
             string password = passwordEntry.Text;
+            string city = cityEntry.Text;
 
             if (String.IsNullOrEmpty(name))
             {
