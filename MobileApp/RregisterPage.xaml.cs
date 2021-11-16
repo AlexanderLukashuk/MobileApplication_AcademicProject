@@ -48,6 +48,10 @@ namespace MobileApp
             {
                 await DisplayAlert("Error", "Phone foeld must be filled", "Ok");
             }
+            else if (String.IsNullOrEmpty(city))
+            {
+                await DisplayAlert("Error", "City field must be filled", "Ok");
+            }
             else if (String.IsNullOrEmpty(password))
             {
                 await DisplayAlert("Error", "Password field must be filled", "Ok");
@@ -62,7 +66,7 @@ namespace MobileApp
             }
             else
             {
-                User user = new User(name, email, phone, password);
+                User user = new User(name, email, phone, city, password);
 
                 await DisplayAlert("Wait", "Successful", "OK");
                 await Navigation.PushAsync(new MobileApp.NewMainPage(user));
