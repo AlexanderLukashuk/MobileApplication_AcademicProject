@@ -12,8 +12,8 @@ namespace MobileApp
 
             MainPage = new NavigationPage(new MobileApp.MainPage())
             {
-                BackgroundColor = Color.FromHex("#f3e5f5"),
-                BarBackgroundColor = Color.FromHex("#7c4dff")
+                BackgroundColor = Color.FromHex("#1a237e"),
+                BarBackgroundColor = Color.FromHex("#283593")
             };
         }
 

@@ -9,7 +9,18 @@
             <ScrollView>
                 <StackLayout Padding="12, 12, 12, 12" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
                     <Grid ColumnSpacing="40">
-
+                        <Grid Grid.Row="0" Grid.Column="0">
+                            <Image Source="CheChilPub.jpeg"></Image>
+                            <Label Text="Chechil Pub" FontSize="28" FontAttributes="Bold" TextColor="#283593" />
+                        </Grid>
+                        <Grid Grid.Row="0" Grid.Column="1">
+                            <Image Source="Saksaul.jpeg"></Image>
+                            <Label Text="Саксаул" FontSize="28" FontAttributes="Bold" TextColor="#283593" />
+                        </Grid>
+                        <Grid Grid.Row="1" Grid.Column="0">
+                            <Image Source="OceanBasket.jpg"></Image>
+                            <Label Text="Ocean Basket" FontSize="28" FontAttributes="Bold" TextColor="#283593" />
+                        </Grid>
                     </Grid>
                     <Label Text="" FontSize="50" FontAttributes="Bold" />
                 </StackLayout>
@@ -28,10 +39,10 @@
     <ContentPage Title="Account" IconImageSource="outline_account_circle_black_24dp.png">
         <ContentPage.Content>
             <StackLayout Padding="12, 12, 12, 12" VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
-                <Label x:Name="nameLabel" Text="Name: " FontSize="28" FontAttributes="Bold" TextColor="#aa00ff" />
-                <Label x:Name="emailLabel" Text="Email: " FontSize="28" FontAttributes="Bold" TextColor="#aa00ff" />
-                <Label x:Name="phoneLabel" Text="Phone: " FontSize="28" FontAttributes="Bold" TextColor="#aa00ff" />
-                <Label x:Name="cityLabel" Text="City: " FontSize="28" FontAttributes="Bold" TextColor="#aa00ff" />
+                <Label x:Name="nameLabel" Text="Name: " FontSize="28" FontAttributes="Bold" TextColor="#283593" />
+                <Label x:Name="emailLabel" Text="Email: " FontSize="28" FontAttributes="Bold" TextColor="#283593" />
+                <Label x:Name="phoneLabel" Text="Phone: " FontSize="28" FontAttributes="Bold" TextColor="#283593" />
+                <Label x:Name="cityLabel" Text="City: " FontSize="28" FontAttributes="Bold" TextColor="#283593" />
             </StackLayout>
         </ContentPage.Content>
     </ContentPage>
@@ -39,10 +50,10 @@
     <ContentPage Title="Settings" IconImageSource="outline_settings_black_24dp.png">
         <ContentPage.Content>
             <StackLayout Padding="12, 12, 12, 12" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
-                <Button x:Name="changeName" Text="Change Name" BackgroundColor="#aa00ff" FontSize="28" FontAttributes="Bold" />
-                <Button x:Name="changeEmail" Text="Change Email" BackgroundColor="#aa00ff" FontSize="28" FontAttributes="Bold" />
-                <Button x:Name="changePhone" Text="Change Phone number" BackgroundColor="#aa00ff" FontSize="28" FontAttributes="Bold"  />
-                <Button x:Name="changePassword" Text="Change Password" BackgroundColor="#aa00ff" FontSize="28" FontAttributes="Bold" />
+                <Button x:Name="changeName" Text="Change Name" BackgroundColor="#283593" TextColor="#1a237e" FontSize="28" FontAttributes="Bold" />
+                <Button x:Name="changeEmail" Text="Change Email" BackgroundColor="#283593" TextColor="#1a237e" FontSize="28" FontAttributes="Bold" />
+                <Button x:Name="changePhone" Text="Change Phone number" BackgroundColor="#283593" TextColor="#1a237e" FontSize="28" FontAttributes="Bold"  />
+                <Button x:Name="changePassword" Text="Change Password" BackgroundColor="#283593" TextColor="#1a237e" FontSize="28" FontAttributes="Bold" />
             </StackLayout>
         </ContentPage.Content>
     </ContentPage>

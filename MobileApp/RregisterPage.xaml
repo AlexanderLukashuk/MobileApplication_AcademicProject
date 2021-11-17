@@ -6,13 +6,13 @@
     Title="Register">
     <ContentPage.Content>
         <StackLayout Padding="12, 12, 12, 12" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
-            <Label x:Name="Label1" Text="Checker Place" TextColor="Black" HorizontalTextAlignment="Center" FontSize="36"/>
+            <Label x:Name="Label1" Text="Checker Place" TextColor="#283593" HorizontalTextAlignment="Center" FontSize="36"/>
             <Entry x:Name="nameEntry" Placeholder="Name" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
             <Entry x:Name="loginEntry" Placeholder="Email" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
             <Entry x:Name="phoneEntry" Placeholder="Phone" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
             <Entry x:Name="cityEntry" Placeholder="City" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
             <Entry x:Name="passwordEntry" Placeholder="Password" IsPassword="True" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
-            <Button Text="Register" FontAttributes="Bold" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" Clicked="OnButtonClicked" ></Button>
+            <Button Text="Register" FontAttributes="Bold" BackgroundColor="#283593" TextColor="#1a237e" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" Clicked="OnButtonClicked" ></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

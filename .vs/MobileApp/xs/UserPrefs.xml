@@ -1,13 +1,18 @@
 ﻿<Properties StartupConfiguration="{F6D864BA-FC6A-4410-95AC-A57E8143A45B}|Default">
   <MonoDevelop.Ide.ItemProperties.MobileApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.59B3D1B1-C70E-4B6B-B208-A197E735AEBD" />
   <MonoDevelop.Ide.ItemProperties.MobileApp.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MobileApp/User.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MobileApp/MainPage.xaml.cs">
     <Files>
       <File FileName="MobileApp/RregisterPage.xaml.cs" Line="53" Column="50" />
-      <File FileName="MobileApp/NewMainPage.xaml.cs" Line="71" Column="10" />
-      <File FileName="MobileApp/NewMainPage.xaml" Line="10" Column="40" />
-      <File FileName="MobileApp/RregisterPage.xaml" Line="13" Column="56" />
+      <File FileName="MobileApp/NewMainPage.xaml.cs" />
+      <File FileName="MobileApp/NewMainPage.xaml" />
+      <File FileName="MobileApp/RregisterPage.xaml" />
       <File FileName="MobileApp/User.cs" Line="12" Column="32" />
+      <File FileName="MobileApp/App.xaml.cs" Line="16" Column="60" />
+      <File FileName="MobileApp/LoginPage.xaml" Line="9" Column="74" />
+      <File FileName="MobileApp/MainPage.xaml" Line="10" Column="218" />
+      <File FileName="MobileApp/LoginPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="MobileApp/MainPage.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,10 +20,12 @@
           <Node name="MobileApp" expanded="True">
             <Node name="MobileApp" expanded="True">
               <Node name="App.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="LoginPage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
               <Node name="NewMainPage.xaml" expanded="True" />
               <Node name="RregisterPage.xaml" expanded="True" />
-              <Node name="User.cs" selected="True" />
             </Node>
           </Node>
         </State>

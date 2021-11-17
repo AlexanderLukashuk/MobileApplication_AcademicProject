@@ -6,7 +6,7 @@
     Title="Log In">
     <ContentPage.Content>
         <StackLayout Padding="12, 12, 12, 12" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
-            <Label x:Name="Label1" Text="Checker Place" TextColor="Black" HorizontalTextAlignment="Center" FontSize="36"/>
+            <Label x:Name="Label1" Text="Checker Your Place" TextColor="#5c6bc0" HorizontalTextAlignment="Center" FontSize="36"/>
             <Entry x:Name="loginEntry" Placeholder="Email" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
             <Entry x:Name="passwordEntry" Placeholder="Password" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
             <Button Text="Log in" FontAttributes="Bold" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20"  ></Button>
