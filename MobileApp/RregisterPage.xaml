@@ -7,11 +7,11 @@
     <ContentPage.Content>
         <StackLayout Padding="12, 12, 12, 12" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
             <Label x:Name="Label1" Text="Check Your Place" TextColor="#7986cb" HorizontalTextAlignment="Center" FontSize="36"/>
-            <Entry x:Name="nameEntry" Placeholder="Name" BackgroundColor="WhiteSmoke" FontSize="28" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
-            <Entry x:Name="loginEntry" Placeholder="Email" BackgroundColor="WhiteSmoke" FontSize="28" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
-            <Entry x:Name="phoneEntry" Placeholder="Phone" BackgroundColor="WhiteSmoke" FontSize="28" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
-            <Entry x:Name="cityEntry" Placeholder="City" BackgroundColor="WhiteSmoke" FontSize="28" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
-            <Entry x:Name="passwordEntry" Placeholder="Password" BackgroundColor="WhiteSmoke" FontSize="28" IsPassword="True" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
+            <Entry x:Name="nameEntry" Placeholder="Name" BackgroundColor="WhiteSmoke" FontSize="20" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
+            <Entry x:Name="loginEntry" Placeholder="Email" BackgroundColor="WhiteSmoke" FontSize="20" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
+            <Entry x:Name="phoneEntry" Placeholder="Phone" BackgroundColor="WhiteSmoke" FontSize="20" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
+            <Entry x:Name="cityEntry" Placeholder="City" BackgroundColor="WhiteSmoke" FontSize="20" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
+            <Entry x:Name="passwordEntry" Placeholder="Password" BackgroundColor="WhiteSmoke" FontSize="20" IsPassword="True" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
             <Button Text="Register" FontAttributes="Bold" BackgroundColor="#7986cb" TextColor="#1a237e" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" Clicked="OnButtonClicked" ></Button>
         </StackLayout>
     </ContentPage.Content>

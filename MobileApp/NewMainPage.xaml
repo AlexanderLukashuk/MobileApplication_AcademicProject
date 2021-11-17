@@ -8,20 +8,26 @@
         <ContentPage.Content>
             <ScrollView>
                 <StackLayout Padding="12, 12, 12, 12" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
-                    <Grid ColumnSpacing="40">
-                        <Grid Grid.Row="0" Grid.Column="0">
-                            <Image Source="CheChilPub.jpeg"></Image>
+                    <Grid x:Name="restaurans" ColumnSpacing="40">
+                       <Grid Grid.Row="0" Grid.Column="0" BackgroundColor="Black">
+                            <Image HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFill" Source="CheChilPub.jpeg" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
                             <Label Text="Chechil Pub" FontSize="28" FontAttributes="Bold" TextColor="#7986cb" />
                         </Grid>
-                        <Grid Grid.Row="0" Grid.Column="1">
-                            <Image Source="Saksaul.jpeg"></Image>
+                        <Grid Grid.Row="0" Grid.Column="1" BackgroundColor="Black">
+                            <Image Source="../Resources/Saksaul.jpeg"/>
                             <Label Text="Саксаул" FontSize="28" FontAttributes="Bold" TextColor="#7986cb" />
                         </Grid>
-                        <Grid Grid.Row="1" Grid.Column="0">
-                            <Image Source="OceanBasket.jpg"></Image>
+                        <Grid Grid.Row="1" Grid.Column="0" BackgroundColor="Black">
+                            <Image Source="../Resources/OceanBasket.jpg"/>
                             <Label Text="Ocean Basket" FontSize="28" FontAttributes="Bold" TextColor="#7986cb" />
                         </Grid>
                     </Grid>
+                    <!--<Image HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFill" Source="CheChilPub.jpeg" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+                    <Label Text="Chechil Pub" FontSize="28" FontAttributes="Bold" TextColor="#7986cb" />
+                    <Image Source="Saksaul.jpeg"/>
+                    <Label Text="Саксаул" FontSize="28" FontAttributes="Bold" TextColor="#7986cb" />
+                    <Image Source="OceanBasket.jpg"/>
+                    <Label Text="Ocean Basket" FontSize="28" FontAttributes="Bold" TextColor="#7986cb" />-->
                     <Label Text="" FontSize="50" FontAttributes="Bold" />
                 </StackLayout>
             </ScrollView>

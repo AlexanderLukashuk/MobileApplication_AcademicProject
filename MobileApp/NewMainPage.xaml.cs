@@ -30,6 +30,14 @@ namespace MobileApp
             phoneLabel.Text += user.Phone;
             cityLabel.Text += user.City;
 
+            //Grid restaurans = new Grid { };
+
+            //restaurans.Children.Add(new Image { Source = "CheChilPub.jpeg" }, 0, 0);
+            //restaurans.Children.Add(new Image { Source = "Saksaul.jpeg" }, 0, 0);
+            //restaurans.Children.Add(new Image { Source = "OceanBasket.jpg" }, 0, 0);
+
+            //TabbedPage.Conte = restaurans;
+
             /*Application.Current.MainPage = new NavigationPage(new MobileApp.NewMainPage())
             {
                 BackgroundColor = Color.FromHex("#f3e5f5"),
