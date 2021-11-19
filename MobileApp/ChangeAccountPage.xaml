@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MobileApp.ChangeAccountPage"
+    Title="Change Acoount">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="nameEntry" Placeholder="Name" BackgroundColor="WhiteSmoke" FontSize="20" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
+            <Entry x:Name="emailEntry" Placeholder="Email" BackgroundColor="WhiteSmoke" FontSize="20" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
+            <Entry x:Name="phoneEntry" Placeholder="Phone" BackgroundColor="WhiteSmoke" FontSize="20" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
+            <Entry x:Name="cityEntry" Placeholder="City" BackgroundColor="WhiteSmoke" FontSize="20" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
+            <Entry x:Name="passwordEntry" Placeholder="Password" BackgroundColor="WhiteSmoke" FontSize="20" IsPassword="True" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" />
+            <Button Text="Confirm" FontAttributes="Bold" BackgroundColor="#7986cb" TextColor="WhiteSmoke" FontSize="20" WidthRequest="300" HorizontalOptions="Center" Margin="20, 20" CornerRadius="10" Clicked="Button_Clicked" ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

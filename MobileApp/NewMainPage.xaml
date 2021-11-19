@@ -9,9 +9,10 @@
             <ScrollView>
                 <StackLayout Padding="12, 12, 12, 12" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
                     <Grid x:Name="restaurans" ColumnSpacing="40">
-                       <Grid Grid.Row="0" Grid.Column="0" BackgroundColor="Black">
+                        <Grid Grid.Row="0" Grid.Column="0" BackgroundColor="Black">
                             <Image Source="CheChilPub.jpeg" Grid.RowSpan="2" />
                             <Label Text="Chechil Pub" FontSize="28" FontAttributes="Bold" TextColor="#7986cb" />
+                            <Button Text="Book a place" FontAttributes="Bold" BackgroundColor="#7986cb" TextColor="WhiteSmoke" HorizontalOptions="Center" Margin="20, 20" CornerRadius="10" Clicked="BookPlace" />
                         </Grid>
                         <Grid Grid.Row="0" Grid.Column="1" BackgroundColor="Black">
                             <Image Source="../Resources/Saksaul.jpeg"/>
@@ -56,10 +57,11 @@
     <ContentPage Title="Settings" IconImageSource="outline_settings_black_24dp.png">
         <ContentPage.Content>
             <StackLayout Padding="12, 12, 12, 12" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
-                <Button x:Name="changeName" Text="Change Name" BackgroundColor="#7986cb" TextColor="#1a237e" FontSize="28" FontAttributes="Bold" CornerRadius="10" />
-                <Button x:Name="changeEmail" Text="Change Email" BackgroundColor="#7986cb" TextColor="#1a237e" FontSize="28" FontAttributes="Bold" CornerRadius="10" />
-                <Button x:Name="changePhone" Text="Change Phone number" BackgroundColor="#7986cb" TextColor="#1a237e" FontSize="28" FontAttributes="Bold" CornerRadius="10" />
-                <Button x:Name="changePassword" Text="Change Password" BackgroundColor="#7986cb" TextColor="#1a237e" FontSize="28" FontAttributes="Bold" CornerRadius="10" />
+                <!--<Button x:Name="changeName" Text="Change Name" BackgroundColor="#7986cb" TextColor="WhiteSmoke" FontSize="28" FontAttributes="Bold" CornerRadius="10" />
+                <Button x:Name="changeEmail" Text="Change Email" BackgroundColor="#7986cb" TextColor="WhiteSmoke" FontSize="28" FontAttributes="Bold" CornerRadius="10" />
+                <Button x:Name="changePhone" Text="Change Phone number" BackgroundColor="#7986cb" TextColor="WhiteSmoke" FontSize="28" FontAttributes="Bold" CornerRadius="10" />
+                <Button x:Name="changePassword" Text="Change Password" BackgroundColor="#7986cb" TextColor="WhiteSmoke" FontSize="28" FontAttributes="Bold" CornerRadius="10" />-->
+                <!--<Button x:Name="editAccount" Text="Edit Account" BackgroundColor="#7986cb" TextColor="WhiteSmoke" FontSize="28" FontAttributes="Bold" CornerRadius="10" Clicked="EditAccount_Clicked" />-->
             </StackLayout>
         </ContentPage.Content>
     </ContentPage>

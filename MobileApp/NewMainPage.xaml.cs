@@ -79,5 +79,9 @@ namespace MobileApp
             phoneLabel.Text = restoredUser.Phone;
         }
 
+        private async void BookPlace(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MobileApp.BookingPlacePage());
+        }
     }
 }

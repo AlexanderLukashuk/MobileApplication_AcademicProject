@@ -6,6 +6,7 @@
 
     <ContentPage.Content>
         <StackLayout Padding="12, 12, 12, 12" VerticalOptions="EndAndExpand" HorizontalOptions="FillAndExpand">
+        <Image Source="logo_mobApp.PNG" />
         <Button x:Name="loginButton" Text="Log in" BackgroundColor="#7986cb" TextColor="WhiteSmoke" FontSize="20" HorizontalOptions="FillAndExpand" Margin="20, 20" VerticalOptions="End" Clicked="LoginClicked" CornerRadius="10" ></Button>
         <Button x:Name="registerButton" Text="Register" BackgroundColor="#7986cb" TextColor="WhiteSmoke" FontSize="20" HorizontalOptions="FillAndExpand" Margin="20, 20" VerticalOptions="End" Clicked="RegisterClicked" CornerRadius="10" ></Button>
 

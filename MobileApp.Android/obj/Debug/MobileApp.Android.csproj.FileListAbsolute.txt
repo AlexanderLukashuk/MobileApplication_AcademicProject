@@ -630,3 +630,4 @@
 /Users/sanya/Projects/MobileApp/MobileApp.Android/obj/Debug/res/drawable/oceanbasket.jpg
 /Users/sanya/Projects/MobileApp/MobileApp.Android/obj/Debug/res/drawable/saksaul.jpeg
 /Users/sanya/Projects/MobileApp/MobileApp.Android/obj/Debug/res/drawable/chechilpub.jpeg
+/Users/sanya/Projects/MobileApp/MobileApp.Android/obj/Debug/res/drawable/logo_mobapp.png
