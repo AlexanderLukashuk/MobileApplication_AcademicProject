@@ -10,17 +10,25 @@
                 <StackLayout Padding="12, 12, 12, 12" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
                     <Grid x:Name="restaurans" ColumnSpacing="40">
                         <Grid Grid.Row="0" Grid.Column="0" BackgroundColor="Black">
-                            <Image Source="CheChilPub.jpeg" Grid.RowSpan="2" />
-                            <Label Text="Chechil Pub" FontSize="28" FontAttributes="Bold" TextColor="#7986cb" />
-                            <Button Text="Book a place" FontAttributes="Bold" BackgroundColor="#7986cb" TextColor="WhiteSmoke" HorizontalOptions="Center" Margin="20, 20" CornerRadius="10" Clicked="BookPlace" />
+                            <StackLayout>
+                                <Label Text="Chechil Pub" FontSize="28" FontAttributes="Bold" TextColor="#7986cb" />
+                                <Image Source="CheChilPub.jpeg" Grid.RowSpan="2" />
+                                <Button Text="Book a place" FontAttributes="Bold" BackgroundColor="#7986cb" TextColor="WhiteSmoke" Margin="20, 20" CornerRadius="10" Clicked="BookPlace" />
+                            </StackLayout>
                         </Grid>
                         <Grid Grid.Row="0" Grid.Column="1" BackgroundColor="Black">
-                            <Image Source="../Resources/Saksaul.jpeg"/>
-                            <Label Text="Саксаул" FontSize="28" FontAttributes="Bold" TextColor="#7986cb" />
+                            <StackLayout>
+                                <Label Text="Саксаул" FontSize="28" FontAttributes="Bold" TextColor="#7986cb" />
+                                <Image Source="../Resources/Saksaul.jpeg"/>
+                                <Button Text="Book a place" FontAttributes="Bold" BackgroundColor="#7986cb" TextColor="WhiteSmoke" Margin="20, 20" CornerRadius="10" Clicked="BookPlace" />
+                            </StackLayout>
                         </Grid>
                         <Grid Grid.Row="1" Grid.Column="0" BackgroundColor="Black">
-                            <Image Source="../Resources/OceanBasket.jpg"/>
-                            <Label Text="Ocean Basket" FontSize="28" FontAttributes="Bold" TextColor="#7986cb" />
+                            <StackLayout>
+                                <Label Text="Ocean Basket" FontSize="28" FontAttributes="Bold" TextColor="#7986cb" />
+                                <Image Source="../Resources/OceanBasket.jpg"/>
+                                <Button Text="Book a place" FontAttributes="Bold" BackgroundColor="#7986cb" TextColor="WhiteSmoke" Margin="20, 20" CornerRadius="10" Clicked="BookPlace" />
+                            </StackLayout>
                         </Grid>
                     </Grid>
                     <!--<Image HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFill" Source="CheChilPub.jpeg" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
